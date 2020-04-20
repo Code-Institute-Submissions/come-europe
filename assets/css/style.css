@@ -1,0 +1,29 @@
+/*---European banner--*/
+.eu-banner {
+  padding: 0px;
+}
+.eu-banner img {
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+/*---Navbar---*/
+
+#navigation {
+  background-color: #14b9d5;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link {
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.logo img {
+    height: 5%;
+    width: 5%;
+    margin-right: 15px;
+}
