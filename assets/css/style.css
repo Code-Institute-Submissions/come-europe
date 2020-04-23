@@ -1,3 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Capriola&family=Roboto:wght@400;500;700;900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.font-change {
+  font-family: "Capriola", sans-serif;
+}
+
+
 /*---European banner--*/
 .eu-banner {
   padding: 0px;
@@ -11,19 +21,30 @@
 /*---Navbar---*/
 
 #navigation {
-  background-color: #14b9d5;
-  height: 20vh;
+  background-color: #14b9d5!important;
+  min-height: 100px;
   display: flex;
   justify-content: center;
 }
 
-.nav-link {
+.nav-eulink {
   margin: auto;
-  margin-bottom: 50px;
+ 
 }
 
+.nav-eulink a {
+color: white;
+font-size: 20px
+}
+
+.logo {
+   
+    font-size: 30px;
+}
+
+.logo span {
+     color: white;
+}
 .logo img {
-    height: 5%;
-    width: 5%;
-    margin-right: 15px;
+    margin-right: 10px;
 }
