@@ -7,7 +7,6 @@ body {
   font-family: "Capriola", sans-serif;
 }
 
-
 /*---European banner--*/
 .eu-banner {
   padding: 0px;
@@ -21,30 +20,62 @@ body {
 /*---Navbar---*/
 
 #navigation {
-  background-color: #14b9d5!important;
+  background-color: #14b9d5 !important;
   min-height: 100px;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .nav-eulink {
   margin: auto;
- 
 }
 
 .nav-eulink a {
-color: white;
-font-size: 20px
+  color: white;
+  font-size: 20px;
 }
 
 .logo {
-   
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .logo span {
-     color: white;
+  color: white;
 }
 .logo img {
-    margin-right: 10px;
+  margin-right: 10px;
+}
+
+#dest {
+  position: absolute;
+  width: 500px;
+  height: 150px;
+  background-image: linear-gradient(white 25%, #14b9d5);
+  
+  z-index: 2;
+  top: 90px;
+  left: 389px;
+}
+.arrow-up {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+
+  border-bottom: 20px solid white;
+
+  top: 70px;
+  left: 425px;
+ z-index: 4;
+}
+
+/*---body---*/
+
+#slogan h2 {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 600;
+  color: #f9ca3a;
 }

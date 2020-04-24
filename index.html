@@ -10,13 +10,14 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
     <title>Come Europe</title>
   </head>
 
   <body>
     <div class="container-fluid eu-banner">
-      <img src="assets/images/EUROPEAN-FOOTER.png" alt="European Banner" />
+      <img src="./assets/images/EUROPEAN-FOOTER.png" alt="European Banner" />
     </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navigation">
       <button
@@ -32,17 +33,17 @@
       </button>
       <a class="navbar-brand font-change logo" href="#">
         <img
-          src="assets/images/stars-38740_1280.png"
+          src="./assets/images/stars-38740_1280.png"
           width="50"
           height="50"
           class="d-inline-block align-middle"
           alt="Logo"
         />
-       <span>Come Europe</span> 
+        <span>Come Europe</span>
       </a>
       <div class="collapse navbar-collapse" id="navbarNav">
         <div class="nav-eulink">
-          <a href="#" class="font-change">Destination</a>
+          <a href="#" class="font-change" id="eulink-dest">Destination</a>
         </div>
         <div class="nav-eulink">
           <a href="#" class="font-change">Attractions</a>
@@ -51,13 +52,23 @@
           <a href="#" class="font-change">About Us</a>
         </div>
       </div>
+      <div id="appearing-dest">
+        <div class="box"></div>
+        <div class="arrow-up"></div>
+        <div id="dest">
+          <p>hello</p>
+        </div>
+      </div>
     </nav>
+    <section>
+      <div class="row">
+        <div class="col-12 font-change" id="slogan">
+          <h2>Come Visit Europe The Best Continent In The World</h2>
+        </div>
+      </div>
+    </section>
 
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
@@ -68,5 +79,6 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <script src="./assets/js/javascript.js"></script>
   </body>
 </html>
