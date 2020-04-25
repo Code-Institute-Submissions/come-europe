@@ -50,12 +50,13 @@ body {
 #dest {
   position: absolute;
   width: 500px;
-  height: 150px;
+  min-height:  150px;
   background-image: linear-gradient(white 25%, #14b9d5);
   
   z-index: 2;
   top: 90px;
   left: 389px;
+  font-size: 18px;
 }
 .arrow-up {
   position: absolute;
@@ -71,6 +72,29 @@ body {
  z-index: 4;
 }
 
+.dest-link {
+    text-align: center;
+}
+.dest-img {
+    display: block;
+    clear: both;
+    justify-content: center;
+    margin: auto;
+}
+.dest-top {
+    margin-top: 20px;
+    
+}
+
+.dest-bottom {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+#dest a {
+    color: #f9ca3a;
+    letter-spacing: 1px;
+}
 /*---body---*/
 
 #slogan h2 {
