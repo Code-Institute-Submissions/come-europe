@@ -50,9 +50,9 @@ body {
 #dest {
   position: absolute;
   width: 500px;
-  min-height:  150px;
+  min-height: 150px;
   background-image: linear-gradient(white 25%, #14b9d5);
-  
+
   z-index: 2;
   top: 90px;
   left: 389px;
@@ -69,31 +69,29 @@ body {
 
   top: 70px;
   left: 425px;
- z-index: 4;
+  z-index: 4;
 }
 
 .dest-link {
-    text-align: center;
+  text-align: center;
 }
 .dest-img {
-    display: block;
-    clear: both;
-    justify-content: center;
-    margin: auto;
+  display: block;
+  clear: both;
+  justify-content: center;
+  margin: auto;
 }
 .dest-top {
-    margin-top: 20px;
-    
+  margin-top: 20px;
 }
 
 .dest-bottom {
-    margin-bottom: 10px;
-    margin-top: 10px;
-    
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 #dest a {
-    color: #f9ca3a;
-    letter-spacing: 1px;
+  color: #07307E;
+  letter-spacing: 1px;
 }
 /*---body---*/
 
@@ -102,4 +100,52 @@ body {
   margin-top: 20px;
   font-weight: 600;
   color: #f9ca3a;
+}
+
+#slogan {
+    margin-bottom: 30px;
+}
+
+.centre {
+  margin: auto;
+  width: 70%;
+  border: 3px solid green;
+  padding: 10px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.selling-point h4 {
+    text-align: center; 
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.btn-can button {
+    margin-left: 30%;
+}
+
+.effiel {
+    background-image: url(../images/tower-eiffel-tower-paris-france-architecture-europe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+}
+
+.nature {
+    background-image: url(../images/shpe5968971.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+}
+
+.art {
+     background-image: url(../images/shutterstock_331790432-870x400.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+}
+
+.all-selling-points {
+    margin-bottom: 25px;
 }
