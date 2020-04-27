@@ -11,6 +11,10 @@
       crossorigin="anonymous"
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/4c213a1c6a.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
     <title>Come Europe</title>
   </head>
@@ -19,7 +23,10 @@
     <div class="container-fluid eu-banner">
       <img src="./assets/images/EUROPEAN-FOOTER.png" alt="European Banner" />
     </div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="navigation">
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light fixed-top"
+      id="navigation"
+    >
       <button
         class="navbar-toggler"
         type="button"
@@ -133,41 +140,102 @@
       </div>
       <div class="row all-selling-points">
         <div class="col-md-4 selling-point">
-          
           <div class="centre effiel"></div>
           <h4>Place for History</h4>
           <div class="col-12 btn-can">
-            <button type="button" class="btn btn-primary">
-              Click for more Info
-            </button>
+            <a href="#about-europe"
+              ><button type="button" class="btn btn-primary" id="eu-history">
+                Click for more Info
+              </button></a
+            >
           </div>
         </div>
         <div class="col-md-4 selling-point">
-          
           <div class="centre nature"></div>
           <h4>Place for Nature</h4>
           <div class="col-12 btn-can">
-            <button type="button" class="btn btn-primary">
-              Click for more Info
-            </button>
+            <a href="#about-europe"
+              ><button type="button" class="btn btn-primary" id="eu-nature">
+                Click for more Info
+              </button></a
+            >
           </div>
         </div>
         <div class="col-md-4 selling-point">
-          
           <div class="centre art"></div>
           <h4>Place for Art & Culture</h4>
           <div class="col-12 btn-can">
-            <button type="button" class="btn btn-primary">
-              Click for more Info
-            </button>
+            <a href="#about-europe"
+              ><button type="button" class="btn btn-primary" id="eu-art">
+                Click for more Info
+              </button></a
+            >
           </div>
         </div>
       </div>
       <div class="row">
-      <div class="col-md-8"></div>
-      <div class="col-md-4"></div>
+        <div class="col-md-8">
+          <div id="about-europe">
+            <h5 id="info-title">European History</h5>
+            <p id="info">
+              The history of Europe covers the people inhabiting Europe from
+              prehistory to the present. During the Neolithic era and the time
+              of the Indo-European migrations Europe saw human inflows from east
+              and southeast and subsequent important cultural and material
+              exchange. The period known as classical antiquity began with the
+              emergence of the city-states of ancient Greece. Later, the Roman
+              Empire came to dominate the entire Mediterranean basin. The fall
+              of the Roman Empire in AD 476 traditionally marks the start of the
+              Middle Ages. Beginning in the 14th century a Renaissance of
+              knowledge challenged traditional doctrines in science and
+              theology. Simultaneously, the Protestant Reformation set up
+              Protestant churches primarily in Germany, Scandinavia and England.
+              After 1800, the Industrial Revolution brought prosperity to
+              Britain and Western Europe. The main powers set up colonies in
+              most of the Americas and Africa, and parts of Asia. In the 20th
+              century, World War I and World War II resulted in massive numbers
+              of deaths. The Cold War dominated European geo-politics from 1947
+              to 1989.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 map">
+          <h4>Places to Visit in Europe</h4>
+        </div>
       </div>
     </section>
+
+    <footer class="container-fluid eu-footer font-change">
+    <div class="row">
+			<div class="footer-title col-12">
+				<h5>Visit us on</h5>
+			</div>
+		</div>
+      <div class="row">
+        <div class="col-md-4 offset-md-4">
+          <ul class="list-inline all-icon">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/" target="_blank"
+                ><i class="fab fa-facebook" aria-hidden="true"></i>
+                <p>Facebook</p></a
+              >
+            </li>
+            <li class="list-inline-item">
+              <a href="#" target="_blank">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+                <p>Twitter</p>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" target="_blank">
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+                <p>Instagram</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script
