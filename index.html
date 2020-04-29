@@ -201,16 +201,17 @@
         </div>
         <div class="col-md-4 map">
           <h4>Places to Visit in Europe</h4>
+          <div id="eu-map"></div>
         </div>
       </div>
     </section>
 
     <footer class="container-fluid eu-footer font-change">
-    <div class="row">
-			<div class="footer-title col-12">
-				<h5>Visit us on</h5>
-			</div>
-		</div>
+      <div class="row">
+        <div class="footer-title col-12">
+          <h5>Visit us on</h5>
+        </div>
+      </div>
       <div class="row">
         <div class="col-md-4 offset-md-4">
           <ul class="list-inline all-icon">
@@ -236,7 +237,39 @@
         </div>
       </div>
     </footer>
+    <!--<script>
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById("eu-map"), {
+          zoom: 3,
+          center: { lat: 46.202, lng: 1.2644 },
+        });
 
+        var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+        var markers = locations.map(function (location, i) {
+          return new google.maps.Marker({
+            position: location,
+            label: labels[i % labels.length],
+          });
+        });
+
+        var markerCluster = new MarkerClusterer(map, markers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+      };
+      var locations = [
+        { lat: 51.5074, lng: -0.118092 },
+        { lat: 48.8566, lng: 2.3522 },
+        { lat: 40.4168, lng: -3.703790 },
+        { lat: 38.7223, lng: -9.142685 },
+        { lat: 52.3667, lng: 4.899431 },
+      ];
+    </script>-->
+    
+    <script src="assets/js/map.js"></script>
+    <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUAxNQ5DN_LbFmKgp0uc3HUdi9rhCBXtg&callback=initMap"
+    ></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
@@ -248,6 +281,7 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    
     <script src="./assets/js/javascript.js"></script>
   </body>
 </html>
