@@ -36,6 +36,14 @@ body {
   font-size: 20px;
 }
 
+.eu-dropdown {
+    background-color: #14b9d5;
+}
+
+.dropdown-alignment {
+    padding: 10px 10px 0 0;
+}
+
 .logo {
   font-size: 30px;
 }
@@ -175,11 +183,11 @@ body {
 }
 
 #eu-map {
-    height: 250px;
-    width: 400px;
-    border: springgreen solid 3px;
-    margin: auto;
-    
+  height: 250px;
+  width: 400px;
+  border: springgreen solid 3px;
+  margin: auto;
+  margin-bottom: 10px;
 }
 
 /*---Footer---*/
@@ -188,9 +196,9 @@ body {
   background-color: #14b9d5;
 }
 .footer-title h5 {
-text-align: center;
-color: white;
-margin-top: 10px;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
 }
 
 .all-icon {
@@ -203,4 +211,26 @@ margin-top: 10px;
 .all-icon a {
   font-size: 15px;
   color: white;
+}
+
+/*---media queries---*/
+
+@media screen and (max-width: 450px) {
+  .btn-can {
+    padding-right: 60px;
+    margin-bottom: 15px;
+    padding-left: 0;
+  }
+
+  #eu-map {
+  width: 300px;
+  margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 1050px ) {
+#eu-map {
+  width: 200px;
+  margin-bottom: 15px;
+  }
 }
