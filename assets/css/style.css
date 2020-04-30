@@ -228,7 +228,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1050px ) {
+@media screen and (min-width: 500px) and (max-width: 1050px ) {
 #eu-map {
   width: 200px;
   margin-bottom: 15px;
