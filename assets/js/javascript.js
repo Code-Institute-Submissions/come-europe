@@ -36,4 +36,55 @@ $(document).ready(function () {
       "The art of Europe, or Western art, encompasses the history of visual art in Europe. European prehistoric art started as mobile Upper Paleolithic rock and cave painting and petroglyph art and was characteristic of the period between the Paleolithic and the Iron Age. Written histories of European art often begin with the art of the Ancient Middle East and the Ancient Aegean civilizations, dating from the 3rd millennium BC. Parallel with these significant cultures, art of one form or another existed all over Europe, wherever there were people, leaving signs such as carvings, decorated artifacts and huge standing stones. However a consistent pattern of artistic development within Europe becomes clear only with the art of Ancient Greece, adopted and transformed by Rome and carried; with the Roman Empire, across much of Europe, North Africa and the Middle East. The influence of the art of the Classical period waxed and waned throughout the next two thousand years, seeming to slip into a distant memory in parts of the Medieval period, to re-emerge in the Renaissance, suffer a period of what some early art historians viewed as decay during the Baroque period, to reappear in a refined form in Neo-Classicism and to be reborn in Post-Modernism."
     );
   });
+
+  // England page
+  function hidden() {
+    $("#hotel-eng-1").hide();
+    console.log("working 2");
+  }
+  hidden();
+
+  /*function btnDetails() {
+     $(".arrow").removeClass("fas fa-chevron-down");
+    $(".arrow").addClass("fas fa-chevron-up arrow");
+    $(".less").text("less");
+  }*/
+
+  //$("#eng-hot-btn-1").click(function(){
+  //$("#hotel-eng-1").toggle( btnDetails);
+  //});
+
+  function changeText() {
+      
+    if 
+    ($(".less").text() === "more") {
+    $(".less").text("less")
+}else {
+    $(".less").text("more")
+}
+    /*let x = document.getElementsByClassName("less");
+    if (x.innerHTML === "more") {
+      x.innerHTML = "less";
+    } else {
+      x.innerHTML = "more";
+    }*/
+    console.log("working 3")
+  }
+
+
+
+
+  $("#eng-hot-btn-1").click(function () {
+    $("#hotel-eng-1").toggle();
+    $(".arrow").toggleClass("fa-chevron-down fa-chevron-up");
+    changeText();
+  });
+
+  // so when you click on the button it checkes if it true or false  and if false then active code
+
+  //ToExpand = $(".arrow").//class = fas fa-chevron-down && $(".less").htmlcontent == "less"
+  // if onclick = false
+  // then active function to removeClass("fas fa-chevron-up")
+  // addClass ("fas fa-chevron-down")
+  // $(".less").text("more");
 });
