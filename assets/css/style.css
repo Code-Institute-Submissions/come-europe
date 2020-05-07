@@ -227,6 +227,15 @@ padding-top: 25px;
   
 }
 
+.eng-title {
+    margin: 10px 0 5px;
+    text-align: center;
+}
+
+.whole-hotel{
+    margin-bottom: 15px;
+}
+
 .hot-btn {
     margin-bottom: 10px;
 }

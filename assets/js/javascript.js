@@ -39,7 +39,7 @@ $(document).ready(function () {
 
   // England page
   function hidden() {
-    $("#hotel-eng-1").hide();
+    $(".hotel-am").hide();
     console.log("working 2");
   }
   hidden();
@@ -54,30 +54,32 @@ $(document).ready(function () {
   //$("#hotel-eng-1").toggle( btnDetails);
   //});
 
-  function changeText() {
-      
-    if 
-    ($(".less").text() === "more") {
-    $(".less").text("less")
-}else {
-    $(".less").text("more")
-}
+  function changeText() { //function not needed
+    if ($(this).children(".less").text() === "more") {
+      $(this).children(".less").text("less");
+    } else {
+      $(this).children(".less").text("more");
+    }
     /*let x = document.getElementsByClassName("less");
     if (x.innerHTML === "more") {
       x.innerHTML = "less";
     } else {
       x.innerHTML = "more";
     }*/
-    console.log("working 3")
+    console.log("working 3");
   }
 
+  //$(".hotel-info").children(".hotel-am"); old
 
-
-
-  $("#eng-hot-btn-1").click(function () {
-    $("#hotel-eng-1").toggle();
+  $(".hot-btn").click(function () {
+    $(this).parent().prev().find(".hotel-am").toggle();
     $(".arrow").toggleClass("fa-chevron-down fa-chevron-up");
-    changeText();
+    if ($(this).children(".less").text() === "more") {
+      $(this).children(".less").text("less");
+      console.log($(this).children(".less").text());
+    } else {
+      $(this).children(".less").text("more");
+    }
   });
 
   // so when you click on the button it checkes if it true or false  and if false then active code
