@@ -496,6 +496,68 @@
           </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="booking-form-box">
+            <div class="all-radio-btn">
+              <input type="radio" name="check" class="radio-btn" /><span
+                >Round Trip</span
+              >
+              <input type="radio" name="check" class="radio-btn" /><span
+                >One way</span
+              >
+              <input type="radio" name="check" class="radio-btn" /><span
+                >Multi-City</span
+              >
+            </div>
+            <div class="booking-form">
+              <label for="from">Flying From</label>
+              <input type="text" class="booking-input" placeholder="City" id="from"/>
+              <label for="to">Flying To</label>
+              <select name="places" id="to">
+                <option value="1">England</option>
+                <option value="2">France</option>
+                <option value="3">Germany</option>
+                <option value="4">Netherlands</option>
+                <option value="5">Portugal</option>
+              </select>
+              <div class="input-date">
+                <label for="">Departing</label>
+                <input type="date" class="booking-input select-date" />
+              </div>
+              <div class="input-date">
+                <label for="">Returning</label>
+                <input type="date" class="booking-input select-date" />
+              </div>
+              <div class="row people">
+                <div class="col-6">
+                  <div class="input-date">
+                    <label for="">Adults</label>
+                    <input type="number" class="booking-input" value="1" min="1" max="10"/>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="input-date">
+                    <label for="">Children</label>
+                    <input type="number" class="booking-input" value="0" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="input-date">
+                <label for="trvl-class">Traveling Class</label>
+                <select name="" id="trvl-class">
+                  <option value="1">Economy Class</option>
+                  <option value="2">Bussiness Class</option>
+                </select>
+              </div>
+              <div class="input-date">
+                <button>Book It</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <footer class="container-fluid eu-footer font-change">

@@ -240,6 +240,49 @@ padding-top: 25px;
     margin-bottom: 10px;
 }
 
+/*---booking form---*/
+.booking-form-box {
+    max-width: 350px;
+    border: 1px black solid;
+    margin: 5px auto;
+}
+
+.all-radio-btn {
+    margin: 7px 10px 5px;
+}
+
+.booking-form {
+    padding: 0 20px 20px;
+}
+
+.all-radio-btn span {
+   margin-left: 4px
+}
+
+.booking-form label {
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-size: 18px;
+    min-width: 100px;
+}
+
+.booking-form select {
+    margin-left: 10px;
+}
+
+.booking-input {
+    width: 150px;
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+}
+
+.people input {
+    width: 100px; 
+    margin-left: 0;
+}
+
+
 /*---media queries---*/
 
 @media screen and (max-width: 450px) {
