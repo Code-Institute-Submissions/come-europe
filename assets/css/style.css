@@ -243,7 +243,8 @@ padding-top: 25px;
 /*---booking form---*/
 .booking-form-box {
     max-width: 350px;
-    border: 1px black solid;
+    border: 3px blue solid;
+    border-radius: 10px;
     margin: 5px auto;
 }
 
@@ -256,8 +257,13 @@ padding-top: 25px;
 }
 
 .all-radio-btn span {
-   margin-left: 4px
+   margin-left: 2px
 }
+
+.all-radio-btn input {
+   margin-left: 3px
+}
+
 
 .booking-form label {
     margin-bottom: 5px;
@@ -281,6 +287,82 @@ padding-top: 25px;
     width: 100px; 
     margin-left: 0;
 }
+
+.booking-form-box {
+   background: linear-gradient(90deg, #14b9d5 0%, rgba(198,222,236,1) 45%, rgba(60,185,237,1) 100%);
+}
+
+.trv-btn {
+    position: relative;
+    left: 39%;
+    bottom: -10px;
+}
+
+.booking-title h4 {
+    text-align: center;
+}
+
+/*---attraction page---*/
+.attraction {
+    background-color: gray;
+    height:50px;
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.attraction a {
+    color: white;
+}
+
+.attraction h5 {
+    padding: 12px 0 0 15px;
+}
+.attraction span {
+    margin-left: 5px;
+}
+
+.att-title h2 {
+text-align: center;
+margin-top: 20px;
+}
+
+.att-info {
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+.att-info p {
+margin-left: 15px;
+margin-bottom: 0px;
+}
+.att-info h6 {
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.att-info img {
+    margin-top: 35px;
+}
+.ava-btn {
+    margin-top: 10px;
+}
+
+.att-img {
+    padding-right: 30px;
+} 
+
+.att-country {
+    margin-top: 15px;
+}
+
+.att-country h4 {
+    text-decoration: underline;
+}
+
+.country {
+    overflow-x: hidden;
+}
+
 
 
 /*---media queries---*/
