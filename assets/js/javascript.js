@@ -40,6 +40,7 @@ $(document).ready(function () {
   // England page
   function hidden() {
     $(".hotel-am").hide();
+    $(".att-info").hide();
     console.log("working 2");
   }
   hidden();
@@ -73,7 +74,8 @@ $(document).ready(function () {
 
   $(".hot-btn").click(function () {
     $(this).parent().prev().find(".hotel-am").toggle();
-    $(".arrow").toggleClass("fa-chevron-down fa-chevron-up");
+    $(this).find(".arrow").toggleClass("fa-chevron-down fa-chevron-up");
+    //$(".arrow").toggleClass("fa-chevron-down fa-chevron-up"); old dont need it 
     if ($(this).children(".less").text() === "more") {
       $(this).children(".less").text("less");
       console.log($(this).children(".less").text());
@@ -89,4 +91,13 @@ $(document).ready(function () {
   // then active function to removeClass("fas fa-chevron-up")
   // addClass ("fas fa-chevron-down")
   // $(".less").text("more");
+
+// Attractions
+
+$(".attraction").click(function(){
+    $(this).next(".att-info").toggle();
+    $(this).find(".arrow").toggleClass("fa-chevron-down fa-chevron-up");
+    console.log("working 3")
+})
+
 });

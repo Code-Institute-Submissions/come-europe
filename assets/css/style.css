@@ -37,11 +37,11 @@ body {
 }
 
 .eu-dropdown {
-    background-color: #14b9d5;
+  background-color: #14b9d5;
 }
 
 .dropdown-alignment {
-    padding: 10px 10px 0 0;
+  padding: 10px 10px 0 0;
 }
 
 .logo {
@@ -216,154 +216,177 @@ body {
 /*---England Page ---*/
 
 .over h5 {
-margin: 10px 0 0px -10px;
-padding-top: 25px;
+  margin: 10px 0 0px -10px;
+  padding-top: 25px;
 }
 
 .hotel-info {
-    max-height: 365px;
-    overflow: auto;
-    padding: 10px 15px 10px 5px;
-  
+  max-height: 365px;
+  overflow: auto;
+  padding: 10px 15px 10px 5px;
 }
 
 .eng-title {
-    margin: 10px 0 5px;
-    text-align: center;
+  margin: 20px 0 5px;
+  text-align: center;
 }
 
-.whole-hotel{
-    margin-bottom: 15px;
+.whole-hotel {
+  margin-bottom: 15px;
 }
 
 .hot-btn {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+
+.book-btn {
+  margin: 10px 44% 0;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
 }
 
 /*---booking form---*/
 .booking-form-box {
-    max-width: 350px;
-    border: 3px blue solid;
-    border-radius: 10px;
-    margin: 5px auto;
+  max-width: 350px;
+  border: 3px blue solid;
+  border-radius: 10px;
+  margin: 0px auto;
 }
 
 .all-radio-btn {
-    margin: 7px 10px 5px;
+  margin: 7px 10px 5px;
 }
 
 .booking-form {
-    padding: 0 20px 20px;
+  padding: 0 20px 20px;
 }
 
 .all-radio-btn span {
-   margin-left: 2px
+  margin-left: 2px;
 }
 
 .all-radio-btn input {
-   margin-left: 3px
+  margin-left: 3px;
 }
 
-
 .booking-form label {
-    margin-bottom: 5px;
-    margin-top: 15px;
-    font-size: 18px;
-    min-width: 100px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  font-size: 18px;
+  min-width: 100px;
 }
 
 .booking-form select {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .booking-input {
-    width: 150px;
-    display: inline-block;
-    position: relative;
-    margin-left: 10px;
+  width: 150px;
+  display: inline-block;
+  position: relative;
+  margin-left: 10px;
 }
 
 .people input {
-    width: 100px; 
-    margin-left: 0;
+  width: 100px;
+  margin-left: 0;
 }
 
 .booking-form-box {
-   background: linear-gradient(90deg, #14b9d5 0%, rgba(198,222,236,1) 45%, rgba(60,185,237,1) 100%);
+  background: linear-gradient(
+    90deg,
+    #14b9d5 0%,
+    rgba(198, 222, 236, 1) 45%,
+    rgba(60, 185, 237, 1) 100%
+  );
 }
 
 .trv-btn {
-    position: relative;
-    left: 39%;
-    bottom: -10px;
+  position: relative;
+  left: 39%;
+  bottom: -10px;
 }
 
 .booking-title h4 {
-    text-align: center;
+  text-align: center;
+  margin-bottom: 0;
 }
 
 /*---attraction page---*/
 .attraction {
-    background-color: gray;
-    height:50px;
-    display: block;
-    margin-top: 20px;
-    width: 100%;
+  background-color: gray;
+  height: 50px;
+  width: 99vw;
+  display: block;
+  margin-top: 20px;
+  clear: both;
 }
 
-.attraction a {
-    color: white;
+.attraction:hover {
+  text-decoration: underline;
+  color: white;
+  cursor: pointer;
 }
 
 .attraction h5 {
-    padding: 12px 0 0 15px;
+  padding: 12px 0 0 15px;
+  color: white;
 }
 .attraction span {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
 .att-title h2 {
-text-align: center;
-margin-top: 20px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .att-info {
-    padding-left: 15px;
-    margin-bottom: 10px;
+  padding-left: 15px;
+  margin-bottom: 10px;
 }
 .att-info p {
-margin-left: 15px;
-margin-bottom: 0px;
+  margin-left: 15px;
+  margin-bottom: 0px;
 }
 .att-info h6 {
-    margin-top: 10px;
-    margin-left: 12px;
+  margin-top: 10px;
+  margin-left: 12px;
 }
 
 .att-info img {
-    margin-top: 35px;
+  margin-top: 35px;
+}
+
+.att-ava a {
+color: white;
 }
 .ava-btn {
-    margin-top: 10px;
+  margin-top: 10px;
+  color: white;
 }
 
 .att-img {
-    padding-right: 30px;
-} 
+  padding-right: 30px;
+}
 
 .att-country {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .att-country h4 {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .country {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
-
+footer {
+  margin-top: 15px;
+}
 
 /*---media queries---*/
 
@@ -375,14 +398,14 @@ margin-bottom: 0px;
   }
 
   #eu-map {
-  width: 300px;
-  margin-bottom: 15px;
+    width: 300px;
+    margin-bottom: 15px;
   }
 }
 
-@media screen and (min-width: 500px) and (max-width: 1050px ) {
-#eu-map {
-  width: 200px;
-  margin-bottom: 15px;
+@media screen and (min-width: 500px) and (max-width: 1050px) {
+  #eu-map {
+    width: 200px;
+    margin-bottom: 15px;
   }
 }

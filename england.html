@@ -260,7 +260,7 @@
             <div class="col-12 stop">
               <button
                 type="button"
-                class="btn btn-primary btn-lg btn-block hot-btn eng-hot-btn-1"
+                class="btn btn-primary btn-lg btn-block hot-btn eng-hot-btn-1 font-change"
                 id=""
               >
                 <span><i class="fas fa-chevron-down arrow"></i></span>
@@ -270,6 +270,9 @@
             </div>
           </div>
         </div>
+          <div class="col-12 hotel-booking">
+            <a href="#booking"><button type="button" class="btn btn-success book-btn font-change">Book Hotel</button></a> 
+          </div>
       </div>
 
       <div class="row whole-hotel">
@@ -371,7 +374,7 @@
             <div class="col-12 stop">
               <button
                 type="button"
-                class="btn btn-primary btn-lg btn-block hot-btn eng-hot-btn-1"
+                class="btn btn-primary btn-lg btn-block hot-btn eng-hot-btn-1 font-change"
                 id=""
               >
                 <span><i class="fas fa-chevron-down arrow"></i></span>
@@ -381,6 +384,9 @@
             </div>
           </div>
         </div>
+        <div class="col-12 hotel-booking">
+            <a href="#booking"><button type="button" class="btn btn-success book-btn font-change">Book Hotel</button></a> 
+          </div>
       </div>
 
       <div class="row whole-hotel">
@@ -485,7 +491,7 @@
             <div class="col-12 stop">
               <button
                 type="button"
-                class="btn btn-primary btn-lg btn-block hot-btn eng-hot-btn-1"
+                class="btn btn-primary btn-lg btn-block hot-btn eng-hot-btn-1 font-change"
                 id=""
               >
                 <span><i class="fas fa-chevron-down arrow"></i></span>
@@ -495,12 +501,17 @@
             </div>
           </div>
         </div>
+        <div class="col-12 hotel-booking">
+            <a href="#booking"><button type="button" class="btn btn-success book-btn font-change">Book Hotel</button></a> 
+          </div>
       </div>
       <div class="row">
-        <div class="col-12 booking-title font-change"><h4>Book Your Holiday Today</h4></div>
+        <div class="col-12 booking-title font-change" id="booking">
+          <h4>Book Your Holiday Today</h4>
+        </div>
       </div>
       <div class="row">
-        <div class="col-12">
+        <div class="col-12">-
           <div class="booking-form-box">
             <div class="all-radio-btn">
               <input type="radio" name="check" class="radio-btn" /><span
@@ -529,6 +540,14 @@
                 <option value="4">Netherlands</option>
                 <option value="5">Portugal</option>
               </select>
+               <div class="input-date">
+                <label for="hotel-stay">Hotel</label>
+                <select name="" id="hotel-stay">
+                  <option value="1">Citadines </option>
+                  <option value="2">DoubleTree by Hilton</option>
+                  <option value="3">Novotel</option>
+                </select>
+              </div>
               <div class="input-date">
                 <label for="">Departing</label>
                 <input type="date" class="booking-input select-date" />
