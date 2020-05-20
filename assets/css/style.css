@@ -245,6 +245,8 @@ body {
   width: 200px;
   height: 60px;
   font-size: 20px;
+  background-color: #14b9d5; 
+  border: none;
 }
 
 /*---booking form---*/
@@ -275,7 +277,7 @@ body {
   margin-bottom: 5px;
   margin-top: 15px;
   font-size: 18px;
-  min-width: 100px;
+  min-width: 110px;
 }
 
 .booking-form select {
@@ -311,7 +313,7 @@ body {
 
 .booking-title h4 {
   text-align: center;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 /*---attraction page---*/
