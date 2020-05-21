@@ -390,6 +390,12 @@ footer {
   margin-top: 15px;
 }
 
+/*---About Us page---*/
+
+.about{
+    margin-top: 25px;
+}
+
 /*---media queries---*/
 
 @media screen and (max-width: 450px) {
@@ -402,6 +408,16 @@ footer {
   #eu-map {
     width: 300px;
     margin-bottom: 15px;
+  }
+
+  /*-- counrties page --*/
+  .book-btn {
+      margin: 10px 0 0 0;
+     position: relative;
+     left: 25%;
+  }
+  .hot-btn {
+      font-size: 18px;
   }
 }
 
