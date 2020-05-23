@@ -101,6 +101,11 @@ body {
   color: #07307e;
   letter-spacing: 1px;
 }
+.navbar-toggler {
+    color: white;
+    border: none;
+}
+
 /*---body---*/
 
 #slogan h2 {
