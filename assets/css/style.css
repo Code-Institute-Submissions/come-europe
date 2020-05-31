@@ -2,6 +2,9 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+section p {
+    color: #404040;
+}
 
 .font-change {
   font-family: "Capriola", sans-serif;
@@ -24,7 +27,7 @@ body {
   min-height: 100px;
   display: flex;
   justify-content: center;
-  position: relative;
+  position: relative sticky;
 }
 
 .nav-eulink {
@@ -122,7 +125,7 @@ body {
 .centre {
   margin: auto;
   width: 70%;
-  border: 3px solid green;
+  
   padding: 10px;
   height: 350px;
   border-radius: 10px;
@@ -135,7 +138,7 @@ body {
 }
 
 .btn-can a {
-  margin-left: 32%;
+  margin-left: 30%;
   margin-bottom: 15px; /*---for moblie---*/
 }
 
@@ -167,7 +170,7 @@ body {
 #about-europe {
   min-width: 500px;
   min-height: 300px;
-  border: 3px solid #212126;
+ 
   color: #404040;
   margin-bottom: 15px;
 }
@@ -190,7 +193,7 @@ body {
 #eu-map {
   height: 250px;
   width: 400px;
-  border: springgreen solid 3px;
+  
   margin: auto;
   margin-bottom: 10px;
 }

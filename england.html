@@ -1,629 +1,706 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <title>England</title>
-  </head>
-  <body>
-    <div class="container-fluid eu-banner">
-      <img src="assets/images/EUROPEAN-FOOTER.png" alt="European Banner">
-    </div>
-     <nav
-      class="navbar navbar-expand-lg navbar-light bg-light sticky-top"
-      id="navigation"
-    >
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand font-change logo" href="index.html">
-        <img
-          src="./assets/images/stars-38740_1280.png"
-          width="50"
-          height="50"
-          class="d-inline-block align-middle"
-          alt="Logo"
-        />
-        <span>Come Europe</span>
-      </a>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <div class="nav-eulink d-none d-lg-block">
-          <a href="#" class="font-change" id="eulink-dest">Destinations</a>
-        </div>
-        <div class="dropdown font-change d-none d-block d-md-block d-lg-none nav-eulink">
-          <a
-            class="nav-link dropdown-toggle dropdown-alignment"
-            href="#"
-            id="navbarDropdownMenuLink"
-            role="button"
-            data-toggle="dropdown"
-            aria-haspopup="true"
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <link
+         rel="stylesheet"
+         href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+         crossorigin="anonymous"
+         />
+      <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+      <title>England</title>
+   </head>
+   <body>
+      <div class="container-fluid eu-banner">
+         <img src="assets/images/EUROPEAN-FOOTER.png" alt="European Banner" />
+      </div>
+      <nav
+         class="navbar navbar-expand-lg navbar-light bg-light sticky-top"
+         id="navigation"
+         >
+         <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
             aria-expanded="false"
-          >
-            Destinations
-          </a>
-          <div
-            class="dropdown-menu eu-dropdown"
-            aria-labelledby="navbarDropdownMenuLink"
-          >
-            <a class="dropdown-item" href="england.html">England</a>
-            <a class="dropdown-item" href="france.html">France</a>
-            <a class="dropdown-item" href="spain.html">Spain</a>
-            <a class="dropdown-item" href="portugal.html">Portugal</a
-            ><a class="dropdown-item" href="netherlands.html">Netherlands</a>
-          </div>
-        </div>
-        <div class="nav-eulink">
-          <a href="attractions.html" class="font-change">Attractions</a>
-        </div>
-        <div class="nav-eulink">
-          <a href="about.html" class="font-change">About Us</a>
-        </div>
-      </div>
-      <div id="appearing-dest">
-        <div class="arrow-up"></div>
-        <div id="dest" class="container font-change">
-          <div class="col-12">
-            <div class="row dest-top">
-              <div class="col">
-                <a href="england.html" class="dest-link"
-                  ><img
-                    src="assets/images/england-flag.jpg"
-                    alt="England flag"
-                    height="35"
-                    width="40"
-                    class="dest-img"
-                  />
-                  <p>England</p>
-                </a>
-              </div>
-              <div class="col">
-                <a href="france.html" class="dest-link"
-                  ><img
-                    src="assets/images/france-flag.png"
-                    alt="French flag"
-                    height="35"
-                    width="40"
-                    class="dest-img"
-                  />
-                  <p>France</p>
-                </a>
-              </div>
-              <div class="col">
-                <a href="spain.html" class="dest-link"
-                  ><img
-                    src="assets/images/spain-flag.png"
-                    alt="Spainish flag"
-                    height="35"
-                    width="40"
-                    class="dest-img"
-                  />
-                  <p>Spain</p>
-                </a>
-              </div>
-            </div>
-
-            <div class="row dest-bottom">
-              <div class="col">
-                <a href="portugal.html" class="dest-link"
-                  ><img
-                    src="assets/images/Flag_of_Portugal.jpg"
-                    alt="Portuguese flag"
-                    height="35"
-                    width="40"
-                    class="dest-img"
-                  />
-                  <p>Portugal</p>
-                </a>
-              </div>
-              <div class="col">
-                <a href="netherlands.html" class="dest-link"
-                  ><img
-                    src="assets/images/netherlands-162372_960_720.png"
-                    alt="Dutch flag"
-                    height="35"
-                    width="40"
-                    class="dest-img"
-                  />
-                  <p>Netherlands</p>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <section class="container-fluid">
-      <div class="row">
-        <div class="col-12 eng-title font-change">
-          <h3>Places to stay in England</h3>
-        </div>
-      </div>
-      <div class="row whole-hotel">
-        <div class="col-md-8">
-          <div class="col-12">
-            <h4>Citadines Islington London</h4>
-          </div>
-          <div
-            id="carouselExampleControls"
-            class="carousel slide"
-            data-ride="carousel"
-          >
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img
-                  src="assets/images/hotels/overview_property_mobile_750x505.jpg"
-                  class="d-block w-100"
-                  alt="..."
-                  height="450px"
-               >
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="assets/images/hotels/232486338.jpg"
-                  class="d-block w-100"
-                  alt="..."
-                  height="450px"
-               >
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="assets/images/hotels/245042551.jpg"
-                  class="d-block w-100"
-                  alt="..."
-                  height="450px"
-               >
-              </div>
-            </div>
-            <a
-              class="carousel-control-prev"
-              href="#carouselExampleControls"
-              role="button"
-              data-slide="prev"
+            aria-label="Toggle navigation"
             >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a
-              class="carousel-control-next"
-              href="#carouselExampleControls"
-              role="button"
-              data-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="row">
-            <div class="col-12 over"><h5>Overview</h5></div>
-            <div class="hotel-info">
-              <p>
-                This smoke-free aparthotel features coffee/tea in a common area,
-                dry cleaning and laundry facilities. WiFi in public areas is
-                free. Other amenities include a 24-hour front desk, a computer
-                station and multilingual staff. Each apartment provides a
-                kitchen with a fridge, a hob, a microwave and a dishwasher. For
-                a bit of entertainment, a flat-screen TV comes with satellite
-                channels, and added amenities include complimentary wireless
-                Internet access and free local calls. Housekeeping is available
-                on request.
-              </p>
-              <div class="hotel-am">
-                <h6>Amenities</h6>
-                <ul>
-                  <li>Free Wifi</li>
-                  <li>Free cot/infant bed</li>
-                  <li>Kitchen</li>
-                  <li>Bathrooms</li>
-                  <li>Flat-screen TV with satellite service</li>
-                  <li>Dry cleaning/laundry service</li>
-                  <li>Work spaces</li>
-                  <li>Air conditioning</li>
-                  <li>Heating</li>
-                  <li>Pet friendly</li>
-                  <li>Suitability/Accessibility</li>
-                </ul>
-              </div>
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <a class="navbar-brand font-change logo" href="index.html">
+         <img
+            src="./assets/images/stars-38740_1280.png"
+            width="50"
+            height="50"
+            class="d-inline-block align-middle"
+            alt="Logo"
+            />
+         <span>Come Europe</span>
+         </a>
+         <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="nav-eulink d-none d-lg-block">
+               <a href="#" class="font-change" id="eulink-dest">Destinations</a>
             </div>
-
-            <div class="col-12 stop">
-              <button
-                type="button"
-                class="btn btn-primary btn-lg btn-block hot-btn eng-hot-btn-1 font-change"
-                id=""
-              >
-                <span><i class="fas fa-chevron-down arrow"></i></span>
-                Read <span class="less">more</span> about the Hotel
-                <span><i class="fas fa-chevron-down arrow"></i></span>
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 hotel-booking">
-          <a href="#booking"
-            ><button type="button" class="btn btn-success book-btn font-change">
-              Book Hotel
-            </button></a
-          >
-        </div>
-      </div>
-
-      <div class="row whole-hotel">
-        <div class="col-md-8">
-          <div class="col-12">
-            <h4>DoubleTree by Hilton London</h4>
-          </div>
-          <div
-            id="carouselExampleControls1"
-            class="carousel slide"
-            data-ride="carousel"
-          >
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img
-                  src="assets/images/hotels/171344655.jpg"
-                  class="d-block w-100"
-                  alt="..."
-                  height="450px"
+            <div
+               class="dropdown font-change d-none d-block d-md-block d-lg-none nav-eulink"
                >
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="assets/images/hotels/c6ee595149b53a08923e50f0f93eece6.jpg"
-                  class="d-block w-100"
-                  alt="..."
-                  height="450px"
-               >
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="assets/images/hotels/d6b554d07f80432d81767636ccc981e6_LARGE.jpg"
-                  class="d-block w-100"
-                  alt="..."
-                  height="450px"
-               >
-              </div>
+               <a
+                  class="nav-link dropdown-toggle dropdown-alignment"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >
+               Destinations
+               </a>
+               <div
+                  class="dropdown-menu eu-dropdown"
+                  aria-labelledby="navbarDropdownMenuLink"
+                  >
+                  <a class="dropdown-item" href="england.html">England</a>
+                  <a class="dropdown-item" href="france.html">France</a>
+                  <a class="dropdown-item" href="spain.html">Spain</a>
+                  <a class="dropdown-item" href="portugal.html">Portugal</a
+                     ><a class="dropdown-item" href="netherlands.html">Netherlands</a>
+               </div>
             </div>
-            <a
-              class="carousel-control-prev"
-              href="#carouselExampleControls1"
-              role="button"
-              data-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a
-              class="carousel-control-next"
-              href="#carouselExampleControls1"
-              role="button"
-              data-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="row">
-            <div class="col-12 over"><h5>Overview</h5></div>
-            <div class="hotel-info">
-              <p>
-                Check in to DoubleTree by Hilton London-Westminster and count on
-                stylish comfort and a signature DoubleTree chocolate chip
-                cookie. Situated in the heart of Westminster and within easy
-                reach of the Houses of Parliament, the London Eye, Tate Britain,
-                London's Theatre District and the Square Mile, our hotel helps
-                you make the most of your time in Britain's capital. This London
-                hotel is close to Victoria Station with the Gatwick Express
-                connecting to the airport in 30 minutes. Waterloo train and tube
-                station is also nearby. Relax in your room with floor-to-ceiling
-                windows. Stay connected with complimentary WiFi.
-              </p>
-              <div class="hotel-am">
-                <h6>Amenities</h6>
-                <ul>
-                  <li>Free Wifi</li>
-                  <li>Fitness Centre with Gym / Workout Room</li>
-                  <li>Bar / lounge</li>
-                  <li>Bathrooms</li>
-                  <li>Flat-screen TV with satellite service</li>
-                  <li>Dry cleaning/laundry service</li>
-                  <li>Baggage storage</li>
-                  <li>Air conditioning</li>
-                  <li>Currency exchange</li>
-                  <li>ATM on site</li>
-                  <li>24-hour security</li>
-                </ul>
-              </div>
+            <div class="nav-eulink">
+               <a href="attractions.html" class="font-change">Attractions</a>
             </div>
-
-            <div class="col-12 stop">
-              <button
-                type="button"
-                class="btn btn-primary btn-lg btn-block hot-btn eng-hot-btn-1 font-change"
-                id=""
-              >
-                <span><i class="fas fa-chevron-down arrow"></i></span>
-                Read <span class="less">more</span> about the Hotel
-                <span><i class="fas fa-chevron-down arrow"></i></span>
-              </button>
+            <div class="nav-eulink">
+               <a href="about.html" class="font-change">About Us</a>
             </div>
-          </div>
-        </div>
-        <div class="col-12 hotel-booking">
-          <a href="#booking"
-            ><button type="button" class="btn btn-success book-btn font-change">
-              Book Hotel
-            </button></a
-          >
-        </div>
-      </div>
-
-      <div class="row whole-hotel">
-        <div class="col-md-8">
-          <div class="col-12">
-            <h4>Novotel London Canary Wharf</h4>
-          </div>
-          <div
-            id="carouselExampleControls2"
-            class="carousel slide"
-            data-ride="carousel"
-          >
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img
-                  src="assets/images/hotels/9057_rotwb_00_p_1024x768.jpg"
-                  class="d-block w-100"
-                  alt="..."
-                  height="450px"
-               >
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="assets/images/hotels/89797644.jpg"
-                  class="d-block w-100"
-                  alt="..."
-                  height="450px"
-               >
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="assets/images/hotels/97193146.jpg"
-                  class="d-block w-100"
-                  alt="..."
-                  height="450px"
-               >
-              </div>
-            </div>
-            <a
-              class="carousel-control-prev"
-              href="#carouselExampleControls2"
-              role="button"
-              data-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a
-              class="carousel-control-next"
-              href="#carouselExampleControls2"
-              role="button"
-              data-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="row">
-            <div class="col-12 over"><h5>Overview</h5></div>
-            <div class="hotel-info">
-              <p>
-                Featuring a roof terrace with 360 views across the London
-                skyline, Novotel London Canary Wharf also benefits from an
-                on-site gym, pool and contemporary restaurant and bar. Free WiFi
-                is available throughout the hotel. The Bōkan Restaurant, Bar and
-                Roof Terrace serves artisanal food and drink made using a
-                mixture of local, ancient, and adopted British ingredients. The
-                menu is inspired by European cultural cuisines. There are
-                panoramic views of London and the Thames, high-speed WiFi and
-                triple-story rooftop dining. Greenwich Park is 2.1 miles from
-                Novotel London Canary Wharf, while Tower Bridge is 2.2 miles
-                away. The nearest airport is London City Airport, 3.1 miles from
-                Novotel London Canary Wharf.
-              </p>
-              <div class="hotel-am">
-                <h6>Amenities</h6>
-                <ul>
-                  <li>Free Wifi</li>
-                  <li>Fitness Centre with Gym / Workout Room</li>
-                  <li>Bar / lounge</li>
-                  <li>Bathrooms</li>
-                  <li>Flat-screen TV with satellite service</li>
-                  <li>Dry cleaning/laundry service</li>
-                  <li>swimming pool</li>
-                  <li>Air conditioning</li>
-                  <li>Pet friendly</li>
-                  <li>Activities</li>
-                  <li>Accessibility</li>
-                  <li>Wellness facilities</li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-12 stop">
-              <button
-                type="button"
-                class="btn btn-primary btn-lg btn-block hot-btn eng-hot-btn-1 font-change"
-                id=""
-              >
-                <span><i class="fas fa-chevron-down arrow"></i></span>
-                Read <span class="less">more</span> about the Hotel
-                <span><i class="fas fa-chevron-down arrow"></i></span>
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 hotel-booking">
-          <a href="#booking"
-            ><button type="button" class="btn btn-success book-btn font-change">
-              Book Hotel
-            </button></a
-          >
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 booking-title font-change" id="booking">
-          <h4>Book Your Holiday Today</h4>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <div class="booking-form-box">
-            <form id="holiday-form" onsubmit="return sendMail(this);">
-              <div class="all-radio-btn">
-                <input type="radio" name="check" class="radio-btn" value="Round Trip"><span>Round Trip</span>
-                <input type="radio" name="check" class="radio-btn" value="One way"><span>One way</span>
-                <input type="radio" name="check" class="radio-btn" value="Multi-City"><span>Multi-City</span>
-              </div>
-              <div class="booking-form">
-                <label for="name">Primary Adult</label>
-                <input type="text" class="booking-input" placeholder="Full Name" id="name" name="name">
-                <label for="email">Contact</label>
-                <input type="email" class="booking-input" placeholder="E-mail" id="email" name="email">
-                <label for="from">Flying From</label>
-                <input type="text" class="booking-input" placeholder="City" id="from" name="from">
-                <label for="to">Flying To</label>
-                <select name="to" id="to">
-                  <option value="England">England</option>
-                  <option value="France">France</option>
-                  <option value="Germany">Germany</option>
-                  <option value="Netherlands">Netherlands</option>
-                  <option value="Portugal">Portugal</option>
-                </select>
-                <div class="input-date">
-                  <label for="hotelstay">Hotel</label>
-                  <select name="hotelstay" id="hotelstay">
-                    <option value="Citadines">Citadines </option>
-                    <option value="DoubleTree by Hilton">DoubleTree by Hilton</option>
-                    <option value="Novotel">Novotel</option>
-                  </select>
-                </div>
-                <div class="input-date">
-                  <label for="start">Departing</label>
-                  <input type="date" class="booking-input select-date" id="start" name="start">
-                </div>
-                <div class="input-date">
-                  <label for="end">Returning</label>
-                  <input type="date" class="booking-input select-date" id="end" name="end">
-                </div>
-                <div class="row people">
-                  <div class="col-6">
-                    <div class="input-date">
-                      <label for="ads">Adults</label>
-                      <input type="number" class="booking-input" value="1" min="1" max="10" id="ads" name="ads">
-                    </div>
+         </div>
+         <div id="appearing-dest">
+            <div class="arrow-up"></div>
+            <div id="dest" class="container font-change">
+               <div class="col-12">
+                  <div class="row dest-top">
+                     <div class="col">
+                        <a href="england.html" class="dest-link">
+                           <img
+                              src="assets/images/england-flag.jpg"
+                              alt="England flag"
+                              height="35"
+                              width="40"
+                              class="dest-img"
+                              />
+                           <p>England</p>
+                        </a>
+                     </div>
+                     <div class="col">
+                        <a href="france.html" class="dest-link">
+                           <img
+                              src="assets/images/france-flag.png"
+                              alt="French flag"
+                              height="35"
+                              width="40"
+                              class="dest-img"
+                              />
+                           <p>France</p>
+                        </a>
+                     </div>
+                     <div class="col">
+                        <a href="spain.html" class="dest-link">
+                           <img
+                              src="assets/images/spain-flag.png"
+                              alt="Spainish flag"
+                              height="35"
+                              width="40"
+                              class="dest-img"
+                              />
+                           <p>Spain</p>
+                        </a>
+                     </div>
                   </div>
-                  <div class="col-6">
-                    <div class="input-date">
-                      <label for="kids">Children</label>
-                      <input type="number" class="booking-input" value="0" id="kids" name="kids">
-                    </div>
+                  <div class="row dest-bottom">
+                     <div class="col">
+                        <a href="portugal.html" class="dest-link">
+                           <img
+                              src="assets/images/Flag_of_Portugal.jpg"
+                              alt="Portuguese flag"
+                              height="35"
+                              width="40"
+                              class="dest-img"
+                              />
+                           <p>Portugal</p>
+                        </a>
+                     </div>
+                     <div class="col">
+                        <a href="netherlands.html" class="dest-link">
+                           <img
+                              src="assets/images/netherlands-162372_960_720.png"
+                              alt="Dutch flag"
+                              height="35"
+                              width="40"
+                              class="dest-img"
+                              />
+                           <p>Netherlands</p>
+                        </a>
+                     </div>
                   </div>
-                </div>
-
-                <div class="input-date">
-                  <label for="trvl">Traveling Class</label>
-                  <select name="trvl" id="trvl">
-                    <option value="Economy Class">Economy Class</option>
-                    <option value="Bussiness Class">Bussiness Class</option>
-                  </select>
-                </div>
-                <div class="input-date">
-                  <input type="submit" value="Get a Quote" class="trv-btn">
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="container-fluid eu-footer font-change">
-      <div class="row">
-        <div class="footer-title col-12">
-          <h5>Visit us on</h5>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 offset-md-4">
-          <ul class="list-inline all-icon">
-            <li class="list-inline-item">
-              <a href="https://www.facebook.com/" target="_blank">
-                <i class="fab fa-facebook" aria-hidden="true"></i>
-                <p>Facebook</p>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#" target="_blank">
-                <i class="fab fa-twitter" aria-hidden="true"></i>
-                <p>Twitter</p>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#" target="_blank">
-                <i class="fab fa-instagram" aria-hidden="true"></i>
-                <p>Instagram</p>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-
-    
-    <script src="https://kit.fontawesome.com/4c213a1c6a.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUAxNQ5DN_LbFmKgp0uc3HUdi9rhCBXtg&callback=initMap"></script>
-    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
-    <script src="assets/js/map.js"></script>
-    <script src="assets/js/mail.js"></script>
-    <script src="assets/js/javascript.js"></script>
-  </body>
+               </div>
+            </div>
+         </div>
+      </nav>
+      <section class="container-fluid">
+         <div class="row">
+            <div class="col-12 eng-title font-change">
+               <h3>Places to stay in England</h3>
+            </div>
+         </div>
+         <div class="row whole-hotel">
+            <div class="col-md-8">
+               <div class="col-12">
+                  <h4>Citadines Islington London</h4>
+               </div>
+               <div
+                  id="carouselExampleControls"
+                  class="carousel slide"
+                  data-ride="carousel"
+                  >
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <img
+                           src="assets/images/hotels/overview_property_mobile_750x505.jpg"
+                           class="d-block w-100"
+                           alt="..."
+                           height="450px"
+                           />
+                     </div>
+                     <div class="carousel-item">
+                        <img
+                           src="assets/images/hotels/232486338.jpg"
+                           class="d-block w-100"
+                           alt="..."
+                           height="450px"
+                           />
+                     </div>
+                     <div class="carousel-item">
+                        <img
+                           src="assets/images/hotels/245042551.jpg"
+                           class="d-block w-100"
+                           alt="..."
+                           height="450px"
+                           />
+                     </div>
+                  </div>
+                  <a
+                     class="carousel-control-prev"
+                     href="#carouselExampleControls"
+                     role="button"
+                     data-slide="prev"
+                     >
+                  <span
+                     class="carousel-control-prev-icon"
+                     aria-hidden="true"
+                     ></span>
+                  <span class="sr-only">Previous</span>
+                  </a>
+                  <a
+                     class="carousel-control-next"
+                     href="#carouselExampleControls"
+                     role="button"
+                     data-slide="next"
+                     >
+                  <span
+                     class="carousel-control-next-icon"
+                     aria-hidden="true"
+                     ></span>
+                  <span class="sr-only">Next</span>
+                  </a>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="row">
+                  <div class="col-12 over">
+                     <h5>Overview</h5>
+                  </div>
+                  <div class="hotel-info">
+                     <p>
+                        This smoke-free aparthotel features coffee/tea in a common area,
+                        dry cleaning and laundry facilities. WiFi in public areas is
+                        free. Other amenities include a 24-hour front desk, a computer
+                        station and multilingual staff. Each apartment provides a
+                        kitchen with a fridge, a hob, a microwave and a dishwasher. For
+                        a bit of entertainment, a flat-screen TV comes with satellite
+                        channels, and added amenities include complimentary wireless
+                        Internet access and free local calls. Housekeeping is available
+                        on request.
+                     </p>
+                     <div class="hotel-am">
+                        <h6>Amenities</h6>
+                        <ul>
+                           <li>Free Wifi</li>
+                           <li>Free cot/infant bed</li>
+                           <li>Kitchen</li>
+                           <li>Bathrooms</li>
+                           <li>Flat-screen TV with satellite service</li>
+                           <li>Dry cleaning/laundry service</li>
+                           <li>Work spaces</li>
+                           <li>Air conditioning</li>
+                           <li>Heating</li>
+                           <li>Pet friendly</li>
+                           <li>Suitability/Accessibility</li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-12 stop">
+                     <button
+                        type="button"
+                        class="btn btn-primary btn-lg btn-block hot-btn eng-hot-btn-1 font-change"
+                        id=""
+                        >
+                     <span><i class="fas fa-chevron-down arrow"></i></span>
+                     Read <span class="less">more</span> about the Hotel
+                     <span><i class="fas fa-chevron-down arrow"></i></span>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="col-12 hotel-booking">
+               <a href="#booking">
+               <button type="button" class="btn btn-success book-btn font-change">
+               Book Hotel
+               </button>
+               </a>
+            </div>
+         </div>
+         <div class="row whole-hotel">
+            <div class="col-md-8">
+               <div class="col-12">
+                  <h4>DoubleTree by Hilton London</h4>
+               </div>
+               <div
+                  id="carouselExampleControls1"
+                  class="carousel slide"
+                  data-ride="carousel"
+                  >
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <img
+                           src="assets/images/hotels/171344655.jpg"
+                           class="d-block w-100"
+                           alt="..."
+                           height="450px"
+                           />
+                     </div>
+                     <div class="carousel-item">
+                        <img
+                           src="assets/images/hotels/c6ee595149b53a08923e50f0f93eece6.jpg"
+                           class="d-block w-100"
+                           alt="..."
+                           height="450px"
+                           />
+                     </div>
+                     <div class="carousel-item">
+                        <img
+                           src="assets/images/hotels/d6b554d07f80432d81767636ccc981e6_LARGE.jpg"
+                           class="d-block w-100"
+                           alt="..."
+                           height="450px"
+                           />
+                     </div>
+                  </div>
+                  <a
+                     class="carousel-control-prev"
+                     href="#carouselExampleControls1"
+                     role="button"
+                     data-slide="prev"
+                     >
+                  <span
+                     class="carousel-control-prev-icon"
+                     aria-hidden="true"
+                     ></span>
+                  <span class="sr-only">Previous</span>
+                  </a>
+                  <a
+                     class="carousel-control-next"
+                     href="#carouselExampleControls1"
+                     role="button"
+                     data-slide="next"
+                     >
+                  <span
+                     class="carousel-control-next-icon"
+                     aria-hidden="true"
+                     ></span>
+                  <span class="sr-only">Next</span>
+                  </a>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="row">
+                  <div class="col-12 over">
+                     <h5>Overview</h5>
+                  </div>
+                  <div class="hotel-info">
+                     <p>
+                        Check in to DoubleTree by Hilton London-Westminster and count on
+                        stylish comfort and a signature DoubleTree chocolate chip
+                        cookie. Situated in the heart of Westminster and within easy
+                        reach of the Houses of Parliament, the London Eye, Tate Britain,
+                        London's Theatre District and the Square Mile, our hotel helps
+                        you make the most of your time in Britain's capital. This London
+                        hotel is close to Victoria Station with the Gatwick Express
+                        connecting to the airport in 30 minutes. Waterloo train and tube
+                        station is also nearby. Relax in your room with floor-to-ceiling
+                        windows. Stay connected with complimentary WiFi.
+                     </p>
+                     <div class="hotel-am">
+                        <h6>Amenities</h6>
+                        <ul>
+                           <li>Free Wifi</li>
+                           <li>Fitness Centre with Gym / Workout Room</li>
+                           <li>Bar / lounge</li>
+                           <li>Bathrooms</li>
+                           <li>Flat-screen TV with satellite service</li>
+                           <li>Dry cleaning/laundry service</li>
+                           <li>Baggage storage</li>
+                           <li>Air conditioning</li>
+                           <li>Currency exchange</li>
+                           <li>ATM on site</li>
+                           <li>24-hour security</li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-12 stop">
+                     <button
+                        type="button"
+                        class="btn btn-primary btn-lg btn-block hot-btn eng-hot-btn-1 font-change"
+                        id=""
+                        >
+                     <span><i class="fas fa-chevron-down arrow"></i></span>
+                     Read <span class="less">more</span> about the Hotel
+                     <span><i class="fas fa-chevron-down arrow"></i></span>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="col-12 hotel-booking">
+               <a href="#booking">
+               <button type="button" class="btn btn-success book-btn font-change">
+               Book Hotel
+               </button>
+               </a>
+            </div>
+         </div>
+         <div class="row whole-hotel">
+            <div class="col-md-8">
+               <div class="col-12">
+                  <h4>Novotel London Canary Wharf</h4>
+               </div>
+               <div
+                  id="carouselExampleControls2"
+                  class="carousel slide"
+                  data-ride="carousel"
+                  >
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <img
+                           src="assets/images/hotels/9057_rotwb_00_p_1024x768.jpg"
+                           class="d-block w-100"
+                           alt="..."
+                           height="450px"
+                           />
+                     </div>
+                     <div class="carousel-item">
+                        <img
+                           src="assets/images/hotels/89797644.jpg"
+                           class="d-block w-100"
+                           alt="..."
+                           height="450px"
+                           />
+                     </div>
+                     <div class="carousel-item">
+                        <img
+                           src="assets/images/hotels/97193146.jpg"
+                           class="d-block w-100"
+                           alt="..."
+                           height="450px"
+                           />
+                     </div>
+                  </div>
+                  <a
+                     class="carousel-control-prev"
+                     href="#carouselExampleControls2"
+                     role="button"
+                     data-slide="prev"
+                     >
+                  <span
+                     class="carousel-control-prev-icon"
+                     aria-hidden="true"
+                     ></span>
+                  <span class="sr-only">Previous</span>
+                  </a>
+                  <a
+                     class="carousel-control-next"
+                     href="#carouselExampleControls2"
+                     role="button"
+                     data-slide="next"
+                     >
+                  <span
+                     class="carousel-control-next-icon"
+                     aria-hidden="true"
+                     ></span>
+                  <span class="sr-only">Next</span>
+                  </a>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="row">
+                  <div class="col-12 over">
+                     <h5>Overview</h5>
+                  </div>
+                  <div class="hotel-info">
+                     <p>
+                        Featuring a roof terrace with 360 views across the London
+                        skyline, Novotel London Canary Wharf also benefits from an
+                        on-site gym, pool and contemporary restaurant and bar. Free WiFi
+                        is available throughout the hotel. The Bōkan Restaurant, Bar and
+                        Roof Terrace serves artisanal food and drink made using a
+                        mixture of local, ancient, and adopted British ingredients. The
+                        menu is inspired by European cultural cuisines. There are
+                        panoramic views of London and the Thames, high-speed WiFi and
+                        triple-story rooftop dining. Greenwich Park is 2.1 miles from
+                        Novotel London Canary Wharf, while Tower Bridge is 2.2 miles
+                        away. The nearest airport is London City Airport, 3.1 miles from
+                        Novotel London Canary Wharf.
+                     </p>
+                     <div class="hotel-am">
+                        <h6>Amenities</h6>
+                        <ul>
+                           <li>Free Wifi</li>
+                           <li>Fitness Centre with Gym / Workout Room</li>
+                           <li>Bar / lounge</li>
+                           <li>Bathrooms</li>
+                           <li>Flat-screen TV with satellite service</li>
+                           <li>Dry cleaning/laundry service</li>
+                           <li>swimming pool</li>
+                           <li>Air conditioning</li>
+                           <li>Pet friendly</li>
+                           <li>Activities</li>
+                           <li>Accessibility</li>
+                           <li>Wellness facilities</li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-12 stop">
+                     <button
+                        type="button"
+                        class="btn btn-primary btn-lg btn-block hot-btn eng-hot-btn-1 font-change"
+                        id=""
+                        >
+                     <span><i class="fas fa-chevron-down arrow"></i></span>
+                     Read <span class="less">more</span> about the Hotel
+                     <span><i class="fas fa-chevron-down arrow"></i></span>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="col-12 hotel-booking">
+               <a href="#booking">
+               <button type="button" class="btn btn-success book-btn font-change">
+               Book Hotel
+               </button>
+               </a>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-12 booking-title font-change" id="booking">
+               <h4>Book Your Holiday Today</h4>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-12">
+               <div class="booking-form-box">
+                  <form id="holiday-form" onsubmit="return sendMail(this);">
+                     <div class="all-radio-btn">
+                        <input
+                           type="radio"
+                           name="check"
+                           class="radio-btn"
+                           value="Round Trip"
+                           /><span>Round Trip</span>
+                        <input
+                           type="radio"
+                           name="check"
+                           class="radio-btn"
+                           value="One way"
+                           /><span>One way</span>
+                        <input
+                           type="radio"
+                           name="check"
+                           class="radio-btn"
+                           value="Multi-City"
+                           /><span>Multi-City</span>
+                     </div>
+                     <div class="booking-form">
+                        <label for="name">Primary Adult</label>
+                        <input
+                           type="text"
+                           class="booking-input"
+                           placeholder="Full Name"
+                           id="name"
+                           name="name"
+                           />
+                        <label for="email">Contact</label>
+                        <input
+                           type="email"
+                           class="booking-input"
+                           placeholder="E-mail"
+                           id="email"
+                           name="email"
+                           />
+                        <label for="from">Flying From</label>
+                        <input
+                           type="text"
+                           class="booking-input"
+                           placeholder="City"
+                           id="from"
+                           name="from"
+                           />
+                        <label for="to">Flying To</label>
+                        <select name="to" id="to">
+                           <option value="England">England</option>
+                           <option value="France">France</option>
+                           <option value="Germany">Germany</option>
+                           <option value="Netherlands">Netherlands</option>
+                           <option value="Portugal">Portugal</option>
+                        </select>
+                        <div class="input-date">
+                           <label for="hotelstay">Hotel</label>
+                           <select name="hotelstay" id="hotelstay">
+                              <option value="Citadines">Citadines </option>
+                              <option value="DoubleTree by Hilton"
+                                 >DoubleTree by Hilton</option
+                                 >
+                              <option value="Novotel">Novotel</option>
+                           </select>
+                        </div>
+                        <div class="input-date">
+                           <label for="start">Departing</label>
+                           <input
+                              type="date"
+                              class="booking-input select-date"
+                              id="start"
+                              name="start"
+                              />
+                        </div>
+                        <div class="input-date">
+                           <label for="end">Returning</label>
+                           <input
+                              type="date"
+                              class="booking-input select-date"
+                              id="end"
+                              name="end"
+                              />
+                        </div>
+                        <div class="row people">
+                           <div class="col-6">
+                              <div class="input-date">
+                                 <label for="ads">Adults</label>
+                                 <input
+                                    type="number"
+                                    class="booking-input"
+                                    value="1"
+                                    min="1"
+                                    max="10"
+                                    id="ads"
+                                    name="ads"
+                                    />
+                              </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="input-date">
+                                 <label for="kids">Children</label>
+                                 <input
+                                    type="number"
+                                    class="booking-input"
+                                    value="0"
+                                    id="kids"
+                                    name="kids"
+                                    />
+                              </div>
+                           </div>
+                        </div>
+                        <div class="input-date">
+                           <label for="trvl">Traveling Class</label>
+                           <select name="trvl" id="trvl">
+                              <option value="Economy Class">Economy Class</option>
+                              <option value="Bussiness Class">Bussiness Class</option>
+                           </select>
+                        </div>
+                        <div class="input-date">
+                           <input type="submit" value="Get a Quote" class="trv-btn" />
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer class="container-fluid eu-footer font-change">
+         <div class="row">
+            <div class="footer-title col-12">
+               <h5>Visit us on</h5>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-4 offset-md-4">
+               <ul class="list-inline all-icon">
+                  <li class="list-inline-item">
+                     <a href="https://www.facebook.com/" target="_blank">
+                        <i class="fab fa-facebook" aria-hidden="true"></i>
+                        <p>Facebook</p>
+                     </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a href="#" target="_blank">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <p>Twitter</p>
+                     </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a href="#" target="_blank">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <p>Instagram</p>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </footer>
+      <script
+         src="https://kit.fontawesome.com/4c213a1c6a.js"
+         crossorigin="anonymous"
+         ></script>
+      <script
+         src="https://code.jquery.com/jquery-3.5.1.min.js"
+         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+         crossorigin="anonymous"
+         ></script>
+      <script
+         src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+         crossorigin="anonymous"
+         ></script>
+      <script
+         src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+         crossorigin="anonymous"
+         ></script>
+      <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUAxNQ5DN_LbFmKgp0uc3HUdi9rhCBXtg&callback=initMap"></script>
+      <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+      <script src="assets/js/map.js"></script>
+      <script src="assets/js/mail.js"></script>
+      <script src="assets/js/javascript.js"></script>
+   </body>
 </html>
