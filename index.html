@@ -1,284 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-      <link
-         rel="stylesheet"
-         href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-         crossorigin="anonymous"
-         />
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      <script
-         src="https://kit.fontawesome.com/4c213a1c6a.js"
-         crossorigin="anonymous"
-         ></script>
-      <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
-      <title>Come Europe</title>
-   </head>
-   <body>
-      <div class="container-fluid eu-banner">
-         <img src="./assets/images/EUROPEAN-FOOTER.png" alt="European Banner" />
-      </div>
-      <nav
-         class="navbar navbar-expand-lg navbar-light bg-light sticky-top"
-         id="navigation"
-         >
-         <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/4c213a1c6a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
+    <title>Come Europe</title>
+  </head>
+  <body>
+    <div class="container-fluid eu-banner">
+      <img src="./assets/images/EUROPEAN-FOOTER.png" alt="European Banner" />
+    </div>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light sticky-top"
+      id="navigation"
+    >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand font-change logo" href="index.html">
+        <img
+          src="./assets/images/stars-38740_1280.png"
+          width="50"
+          height="50"
+          class="d-inline-block align-middle"
+          alt="Logo"
+        />
+        <span>Come Europe</span>
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="nav-eulink d-none d-lg-block">
+          <a href="#" class="font-change" id="eulink-dest">Destinations</a>
+        </div>
+        <div
+          class="dropdown font-change d-none d-block d-md-block d-lg-none nav-eulink"
+        >
+          <a
+            class="nav-link dropdown-toggle dropdown-alignment"
+            href="#"
+            id="navbarDropdownMenuLink"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
             aria-expanded="false"
-            aria-label="Toggle navigation"
+          >
+            Destinations
+          </a>
+          <div
+            class="dropdown-menu eu-dropdown"
+            aria-labelledby="navbarDropdownMenuLink"
+          >
+            <a class="dropdown-item" href="england.html">England</a>
+            <a class="dropdown-item" href="france.html">France</a>
+            <a class="dropdown-item" href="spain.html">Spain</a>
+            <a class="dropdown-item" href="portugal.html">Portugal</a
+            ><a class="dropdown-item" href="netherlands.html">Netherlands</a>
+          </div>
+        </div>
+        <div class="nav-eulink">
+          <a href="attractions.html" class="font-change">Attractions</a>
+        </div>
+        <div class="nav-eulink">
+          <a href="about.html" class="font-change">About Us</a>
+        </div>
+      </div>
+      <div id="appearing-dest">
+        <div class="arrow-up"></div>
+        <div id="dest" class="container font-change">
+          <div class="col-12">
+            <div class="row dest-top">
+              <div class="col">
+                <a href="england.html" class="dest-link">
+                  <img
+                    src="assets/images/england-flag.jpg"
+                    alt="England flag"
+                    height="35"
+                    width="40"
+                    class="dest-img"
+                  />
+                  <p>England</p>
+                </a>
+              </div>
+              <div class="col">
+                <a href="france.html" class="dest-link">
+                  <img
+                    src="assets/images/france-flag.png"
+                    alt="French flag"
+                    height="35"
+                    width="40"
+                    class="dest-img"
+                  />
+                  <p>France</p>
+                </a>
+              </div>
+              <div class="col">
+                <a href="spain.html" class="dest-link">
+                  <img
+                    src="assets/images/spain-flag.png"
+                    alt="Spainish flag"
+                    height="35"
+                    width="40"
+                    class="dest-img"
+                  />
+                  <p>Spain</p>
+                </a>
+              </div>
+            </div>
+            <div class="row dest-bottom">
+              <div class="col">
+                <a href="portugal.html" class="dest-link">
+                  <img
+                    src="assets/images/Flag_of_Portugal.jpg"
+                    alt="Portuguese flag"
+                    height="35"
+                    width="40"
+                    class="dest-img"
+                  />
+                  <p>Portugal</p>
+                </a>
+              </div>
+              <div class="col">
+                <a href="netherlands.html" class="dest-link">
+                  <img
+                    src="assets/images/netherlands-162372_960_720.png"
+                    alt="Dutch flag"
+                    height="35"
+                    width="40"
+                    class="dest-img"
+                  />
+                  <p>Netherlands</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-12 font-change" id="slogan">
+          <h2>Come Visit Europe The Best Continent In The World</h2>
+        </div>
+      </div>
+      <div class="row all-selling-points">
+        <div class="col-md-4 selling-point">
+          <div class="centre effiel"></div>
+          <h4>Place for History</h4>
+          <div class="col-12 btn-can">
+            <a href="#info"
+              ><button type="button" class="btn btn-primary" id="eu-history">
+                Click for more Info
+              </button></a
             >
-         <span class="navbar-toggler-icon"></span>
-         </button>
-         <a class="navbar-brand font-change logo" href="index.html">
-         <img
-            src="./assets/images/stars-38740_1280.png"
-            width="50"
-            height="50"
-            class="d-inline-block align-middle"
-            alt="Logo"
-            />
-         <span>Come Europe</span>
-         </a>
-         <div class="collapse navbar-collapse" id="navbarNav">
-            <div class="nav-eulink d-none d-lg-block">
-               <a href="#" class="font-change" id="eulink-dest">Destinations</a>
+          </div>
+        </div>
+        <div class="col-md-4 selling-point">
+          <div class="centre nature"></div>
+          <h4>Place for Nature</h4>
+          <div class="col-12 btn-can">
+            <a href="#info"
+              ><button type="button" class="btn btn-primary" id="eu-nature">
+                Click for more Info
+              </button></a
+            >
+          </div>
+        </div>
+        <div class="col-md-4 selling-point">
+          <div class="centre art"></div>
+          <h4>Place for Art & Culture</h4>
+          <div class="col-12 btn-can">
+            <a href="#info"
+              ><button type="button" class="btn btn-primary" id="eu-art">
+                Click for more Info
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div id="about-europe col-12">
+              <h5 id="info-title">European History</h5>
+              <p id="info">
+                The history of Europe covers the people inhabiting Europe from
+                prehistory to the present. During the Neolithic era and the time
+                of the Indo-European migrations Europe saw human inflows from
+                east and southeast and subsequent important cultural and
+                material exchange. The period known as classical antiquity began
+                with the emergence of the city-states of ancient Greece. Later,
+                the Roman Empire came to dominate the entire Mediterranean
+                basin. The fall of the Roman Empire in AD 476 traditionally
+                marks the start of the Middle Ages. Beginning in the 14th
+                century a Renaissance of knowledge challenged traditional
+                doctrines in science and theology. Simultaneously, the
+                Protestant Reformation set up Protestant churches primarily in
+                Germany, Scandinavia and England. After 1800, the Industrial
+                Revolution brought prosperity to Britain and Western Europe. The
+                main powers set up colonies in most of the Americas and Africa,
+                and parts of Asia. In the 20th century, World War I and World
+                War II resulted in massive numbers of deaths. The Cold War
+                dominated European geo-politics from 1947 to 1989.
+              </p>
             </div>
-            <div class="dropdown font-change d-none d-block d-md-block d-lg-none nav-eulink">
-               <a
-                  class="nav-link dropdown-toggle dropdown-alignment"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  >
-               Destinations
-               </a>
-               <div
-                  class="dropdown-menu eu-dropdown"
-                  aria-labelledby="navbarDropdownMenuLink"
-                  >
-                  <a class="dropdown-item" href="england.html">England</a>
-                  <a class="dropdown-item" href="france.html">France</a>
-                  <a class="dropdown-item" href="spain.html">Spain</a>
-                  <a class="dropdown-item" href="portugal.html">Portugal</a
-                     ><a class="dropdown-item" href="netherlands.html">Netherlands</a>
-               </div>
-            </div>
-            <div class="nav-eulink">
-               <a href="attractions.html" class="font-change">Attractions</a>
-            </div>
-            <div class="nav-eulink">
-               <a href="about.html" class="font-change">About Us</a>
-            </div>
-         </div>
-         <div id="appearing-dest">
-            <div class="arrow-up"></div>
-            <div id="dest" class="container font-change">
-               <div class="col-12">
-                  <div class="row dest-top">
-                     <div class="col">
-                        <a href="england.html" class="dest-link"
-                           >
-                           <img
-                              src="assets/images/england-flag.jpg"
-                              alt="England flag"
-                              height="35"
-                              width="40"
-                              class="dest-img"
-                              />
-                           <p>England</p>
-                        </a>
-                     </div>
-                     <div class="col">
-                        <a href="france.html" class="dest-link"
-                           >
-                           <img
-                              src="assets/images/france-flag.png"
-                              alt="French flag"
-                              height="35"
-                              width="40"
-                              class="dest-img"
-                              />
-                           <p>France</p>
-                        </a>
-                     </div>
-                     <div class="col">
-                        <a href="spain.html" class="dest-link"
-                           >
-                           <img
-                              src="assets/images/spain-flag.png"
-                              alt="Spainish flag"
-                              height="35"
-                              width="40"
-                              class="dest-img"
-                              />
-                           <p>Spain</p>
-                        </a>
-                     </div>
-                  </div>
-                  <div class="row dest-bottom">
-                     <div class="col">
-                        <a href="portugal.html" class="dest-link"
-                           >
-                           <img
-                              src="assets/images/Flag_of_Portugal.jpg"
-                              alt="Portuguese flag"
-                              height="35"
-                              width="40"
-                              class="dest-img"
-                              />
-                           <p>Portugal</p>
-                        </a>
-                     </div>
-                     <div class="col">
-                        <a href="netherlands.html" class="dest-link"
-                           >
-                           <img
-                              src="assets/images/netherlands-162372_960_720.png"
-                              alt="Dutch flag"
-                              height="35"
-                              width="40"
-                              class="dest-img"
-                              />
-                           <p>Netherlands</p>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </nav>
-      <section class="container-fluid">
-         <div class="row">
-            <div class="col-12 font-change" id="slogan">
-               <h2>Come Visit Europe The Best Continent In The World</h2>
-            </div>
-         </div>
-         <div class="row all-selling-points">
-            <div class="col-md-4 selling-point">
-               <div class="centre effiel"></div>
-               <h4>Place for History</h4>
-               <div class="col-12 btn-can">
-                  <a href="#info"
-                     ><button type="button" class="btn btn-primary" id="eu-history">
-                  Click for more Info
-                  </button></a
-                     >
-               </div>
-            </div>
-            <div class="col-md-4 selling-point">
-               <div class="centre nature"></div>
-               <h4>Place for Nature</h4>
-               <div class="col-12 btn-can">
-                  <a href="#info"
-                     ><button type="button" class="btn btn-primary" id="eu-nature">
-                  Click for more Info
-                  </button></a
-                     >
-               </div>
-            </div>
-            <div class="col-md-4 selling-point">
-               <div class="centre art"></div>
-               <h4>Place for Art & Culture</h4>
-               <div class="col-12 btn-can">
-                  <a href="#info"
-                     ><button type="button" class="btn btn-primary" id="eu-art">
-                  Click for more Info
-                  </button></a
-                     >
-               </div>
-            </div>
-         </div>
-         <div class="row">
-            <div class="col-md-8">
-               <div id="about-europe col-12">
-                  <h5 id="info-title">European History</h5>
-                  <p id="info">
-                     The history of Europe covers the people inhabiting Europe from
-                     prehistory to the present. During the Neolithic era and the time
-                     of the Indo-European migrations Europe saw human inflows from east
-                     and southeast and subsequent important cultural and material
-                     exchange. The period known as classical antiquity began with the
-                     emergence of the city-states of ancient Greece. Later, the Roman
-                     Empire came to dominate the entire Mediterranean basin. The fall
-                     of the Roman Empire in AD 476 traditionally marks the start of the
-                     Middle Ages. Beginning in the 14th century a Renaissance of
-                     knowledge challenged traditional doctrines in science and
-                     theology. Simultaneously, the Protestant Reformation set up
-                     Protestant churches primarily in Germany, Scandinavia and England.
-                     After 1800, the Industrial Revolution brought prosperity to
-                     Britain and Western Europe. The main powers set up colonies in
-                     most of the Americas and Africa, and parts of Asia. In the 20th
-                     century, World War I and World War II resulted in massive numbers
-                     of deaths. The Cold War dominated European geo-politics from 1947
-                     to 1989.
-                  </p>
-               </div>
-            </div>
-            <div class="col-md-4 map">
-               <h4>Places to Visit in Europe</h4>
-               <div id="eu-map"></div>
-            </div>
-         </div>
-      </section>
-      <footer class="container-fluid eu-footer font-change">
-         <div class="row">
-            <div class="footer-title col-12">
-               <h5>Visit us on</h5>
-            </div>
-         </div>
-         <div class="row">
-            <div class="col-md-4 offset-md-4">
-               <ul class="list-inline all-icon">
-                  <li class="list-inline-item">
-                     <a href="https://www.facebook.com/" target="_blank"
-                        >
-                        <i class="fab fa-facebook" aria-hidden="true"></i>
-                        <p>Facebook</p>
-                     </a
-                        >
-                  </li>
-                  <li class="list-inline-item">
-                     <a href="#" target="_blank">
-                        <i class="fab fa-twitter" aria-hidden="true"></i>
-                        <p>Twitter</p>
-                     </a>
-                  </li>
-                  <li class="list-inline-item">
-                     <a href="#" target="_blank">
-                        <i class="fab fa-instagram" aria-hidden="true"></i>
-                        <p>Instagram</p>
-                     </a>
-                  </li>
-               </ul>
-            </div>
-         </div>
-      </footer>
-      
-      <script src="assets/js/map.js"></script>
-      <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUAxNQ5DN_LbFmKgp0uc3HUdi9rhCBXtg&callback=initMap"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      <script
-         src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-         crossorigin="anonymous"
-         ></script>
-      <script
-         src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-         crossorigin="anonymous"
-         ></script>
-      <script src="./assets/js/javascript.js"></script>
-   </body>
+          </div>
+          <div class="col-md-4 map">
+            <h4>Places to Visit in Europe</h4>
+            <div id="eu-map"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="container-fluid eu-footer font-change">
+      <div class="row">
+        <div class="footer-title col-12">
+          <h5>Visit us on</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 offset-md-4">
+          <ul class="list-inline all-icon">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-facebook" aria-hidden="true"></i>
+                <p>Facebook</p>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://twitter.com/explore" target="_blank">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+                <p>Twitter</p>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/" target="_blank">
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+                <p>Instagram</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/map.js"></script>
+    <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUAxNQ5DN_LbFmKgp0uc3HUdi9rhCBXtg&callback=initMap"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/javascript.js"></script>
+  </body>
 </html>

@@ -228,14 +228,18 @@ section p {
   padding-top: 25px;
 }
 
+.hotel-title {
+    margin-top: 5px;
+}
+
 .hotel-info {
-  max-height: 365px;
+  max-height: 405px;
   overflow: auto;
   padding: 10px 15px 10px 5px;
 }
 
 .eng-title {
-  margin: 20px 0 5px;
+  margin: 30px 0 25px;
   text-align: center;
 }
 
@@ -244,14 +248,18 @@ section p {
 }
 
 .hot-btn {
+    margin-top: 5px;
   margin-bottom: 10px;
 }
 
+.whole-hotel {
+    margin-bottom: 25px;
+}
 
 .book-btn {
-  margin: 10px 44% 0;
+  margin: 5px 20% 0;
   width: 200px;
-  height: 60px;
+  height: 50px;
   font-size: 20px;
   background-color: #14b9d5; 
   border: none;
@@ -259,10 +267,16 @@ section p {
 
 /*---booking form---*/
 .booking-form-box {
-  max-width: 350px;
-  border: 3px blue solid;
+ /* max-width: 350px;*/
+  font-size: 18px;
+  font-weight: 400;
   border-radius: 10px;
   margin: 0px auto;
+  
+}
+.form-shadow {
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.75);
+    background-color: #F0F1F2;
 }
 
 .all-radio-btn {
@@ -293,7 +307,7 @@ section p {
 }
 
 .booking-input {
-  width: 150px;
+  /*width: 150px;*/
   display: inline-block;
   position: relative;
   margin-left: 10px;
@@ -305,18 +319,19 @@ section p {
 }
 
 .booking-form-box {
-  background: linear-gradient(
+  /*background: linear-gradient(
     90deg,
     #14b9d5 0%,
     rgba(198, 222, 236, 1) 45%,
     rgba(60, 185, 237, 1) 100%
-  );
+  );*/
+  
 }
 
 .trv-btn {
   position: relative;
-  left: 39%;
-  bottom: -10px;
+  left: 45%;
+  bottom: 8px;
 }
 
 .booking-title h4 {
@@ -328,7 +343,7 @@ section p {
 .attraction {
   background-color: gray;
   height: 50px;
-  width: 99vw;
+  width: 100vw;
   display: block;
   margin-top: 20px;
   clear: both;
@@ -422,11 +437,18 @@ footer {
   .book-btn {
       margin: 10px 0 0 0;
      position: relative;
-     left: 25%;
+     left: 21%;
   }
   .hot-btn {
       font-size: 18px;
   }
+
+  .trv-btn {
+  position: relative;
+  left: 35%;
+  bottom: 8px;
+}
+
 }
 
 @media screen and (min-width: 500px) and (max-width: 1050px) {
