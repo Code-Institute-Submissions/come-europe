@@ -137,7 +137,13 @@ section p {
   font-weight: 500;
 }
 
-.btn-can a {
+.btn-can {
+    text-align: center;
+}
+
+.btn-can {
+    text-align: cen
+  margin-bottom: 15px; /*---for moblie---*/margin-bottom: 15px; /*---for moblie---*/*////**//*/.btn-can a {
   margin-left: 30%;
   margin-bottom: 15px; /*---for moblie---*/
 }
@@ -421,7 +427,7 @@ footer {
 
 /*---media queries---*/
 
-@media screen and (max-width: 450px) {
+ia screen and (max-width: 450px) {
   .btn-can {
     padding-right: 60px;
     margin-bottom: 15px;
@@ -444,7 +450,12 @@ footer {
   }
 
   .trv-btn {
-  position: relative;
+ 
+
+/*-- counrties page --*/
+.att-info p {
+    padding-right: 1.5rem;
+} position: relative;
   left: 35%;
   bottom: 8px;
 }
