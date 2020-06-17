@@ -445,6 +445,10 @@ footer {
     padding-right: 1.5rem;
 }
 
+.kids {
+    margin-top: 10px;
+}
+
 }
 
 @media screen and (min-width: 500px) and (max-width: 1050px) {
